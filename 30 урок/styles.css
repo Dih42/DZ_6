@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(128, 177, 209);
+}
+.container{
+    border: solid 4px black;
+    background-color: rgb(133, 133, 133);
+    margin: 50px;
+}
+.menu__item{
+    
+    padding: 10px;
+    font-size: 40px;
+}
+.menu__item:hover:first-child{
+    
+    color: red;
+}

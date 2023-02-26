@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(85, 82, 112);
+}
+.container{
+    border-radius: 10px;
+    border: solid 4px rgb(188, 197, 57) ;
+    background-color: rgb(133, 133, 133);
+    margin: 125px;
+}
+.title{
+    font-size: 56px;
+    padding: 50px 0px 50px 500px;
+}
+.title::after{
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+.title::before{
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+
+}
